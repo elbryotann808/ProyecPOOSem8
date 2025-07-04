@@ -12,7 +12,7 @@ public class App {
 
     private static final String CODE_REGEX = "^[A-Za-z]{2}\\d{4}$";
     private static final String STRINGS_REGEX = "^[\\p{L}0-9 ]{3,50}$";
-    private static final String STRINGSlONGS_REGEX = "^[\\w\\s.,!¡¿?()#\"'$%&*\\-+/\\[\\]\\{\\}@:;]{10,500}$";;
+    private static final String STRINGSlONGS_REGEX = "^[\\p{L}\\p{N}\\s\\.,!¡¿?()#\"'$%&*\\-+/\\[\\]\\{\\}@:;]{10,500}$";;
     private static final String COP_REGEX = "^[0-9]+(?:\\.[0-9]{3})*$";
     private static final String INTEGER_REGEX = "^\\d+$";
 

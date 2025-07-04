@@ -46,8 +46,6 @@ public class App {
             System.out.println("5. Ver todos los productos");
             System.out.println("6. Actualizar stock de un producto");
             System.out.println("0. Salir");
-            //System.out.print("Opcion: ");
-            //opt = Integer.parseInt(sc.nextLine());
             opt = Integer.parseInt(inputValid(sc, "Opcion: ", INTEGER_REGEX, OPT_TEXT));
 
 
